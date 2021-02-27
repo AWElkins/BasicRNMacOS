@@ -3,7 +3,6 @@ import {View, TouchableOpacity} from 'react-native';
 import {useSelector} from 'react-redux';
 import {useNavigation} from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/Octicons';
-import Pill from 'react-native-vector-icons/MaterialCommunityIcons';
 import model from './model';
 import styles from './styles';
 
@@ -21,21 +20,12 @@ const SideBar = () => {
         <TouchableOpacity
           key={item.title}
           onPress={() => handleNavigation(item.title)}>
-          {item.icon !== 'pill' ? (
             <Icon
               style={screen === item.title ? styles.iconActive : styles.icon}
               name={item.icon}
               size={item.size}
               color={item.color}
             />
-          ) : (
-            <Pill
-              style={screen === item.title ? styles.iconActive : styles.icon}
-              name={item.icon}
-              size={item.size}
-              color={item.color}
-            />
-          )}
         </TouchableOpacity>
       ))}
     </View>
