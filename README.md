@@ -15,7 +15,9 @@ Basic RN MacOS is a ready to go out of the box, no mystery errors or searching f
 2. run yarn
 3. cd macos
 4. pod install
-5. yarn mac
+5. open BasicApp.xcworkspace in Xcode
+6. Allow project to index and press run
+7. After first run, you can use yarn mac from the command line
 
 ## Resize Screen
 
