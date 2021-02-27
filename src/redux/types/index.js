@@ -1,0 +1,5 @@
+export const BASIC_TYPE = 'BASIC_TYPE';
+export const SET_APP_STATE = 'SET_APP_STATE';
+export const SET_APP_SCREEN = 'SET_APP_SCREEN';
+export const SET_CURRENT_ROUTE = 'SET_CURRENT_ROUTE';
+export const SET_PREVIOUS_ROUTE = 'SET_PREVIOUS_ROUTE';
